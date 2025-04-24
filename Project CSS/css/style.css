@@ -1,0 +1,128 @@
+*{ margin:0;
+   padding: 0;
+}
+body{
+    background-image: url(../images/background.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+nav{
+    width: 20%;
+    height: 60px;
+    float: right;
+   background-color: rgb(7, 75, 102);
+   margin-top: 5px;
+}
+header{
+    width: 80%;
+    height: 60px;
+    float: left;
+   /* background: linear-gradient(60deg,rgb(15, 15, 15),rgb(39, 93, 240)); */
+   background-color: rgb(7, 75, 102);
+    margin-top: 5px;
+}
+aside{
+    width: 5%;
+    height: 100%;
+    background-color: rgba(252, 82, 82, 0.425);
+    float: left;
+}
+
+main{
+    width: 95%;
+    height: 100%;
+    float: right;
+}
+#buyh1{
+    color: white;
+}
+a:hover{
+    color: gold;
+}
+.article1{
+    width: 245px;
+    height: 345px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin: 5px;
+ 
+}
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: right;
+    margin-top: 5px;
+}
+.article2{
+    width: 245px;
+    height: 345px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin: 5px;
+}
+.article3{
+    width: 245px;
+    height: 345px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin: 5px;
+}
+.article4{
+    width: 245px;
+    height: 345px;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+.article5{
+    width: 245px;
+    height: 345px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin: 5px;
+    
+}
+
+.article6{
+    width: 245px;
+    height: 345px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin: 5px;
+}
+.article7{
+    width: 245px;
+    height: 345px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin: 5px;
+}
+.article8{
+    width: 245px;
+    height: 345px;
+    margin: 5px;
+    background-color: rgb(255, 255, 255);
+    float: left;
+}
+.imgtext{
+    color: transparent;
+    background-image: url(../images/background.jfif);
+    background-clip: text;
+    background-size: 1000px 100px;
+    font-family: impact;
+    -webkit-text-stroke: 1px;
+    -webkit-text-stroke-color: white;
+}
+.ahref{
+    margin-left: 20px;
+    color: white;
+    font-size: 40px;
+    text-decoration: none;
+}
+footer{
+    clear: both;
+    width: 100%;
+    height: 20px;
+    background: rgb(67, 196, 240)
+    }
